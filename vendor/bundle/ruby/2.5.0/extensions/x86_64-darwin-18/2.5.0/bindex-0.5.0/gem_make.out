@@ -1,0 +1,15 @@
+current directory: /Users/megataichi/exp/sample_app_4th_ed/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/megataichi/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200511-79559-31y42g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/megataichi/exp/sample_app_4th_ed/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/megataichi/exp/sample_app_4th_ed/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/megataichi/exp/sample_app_4th_ed/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200511-79559-14f12kc/bindex
