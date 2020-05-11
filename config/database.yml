@@ -5,12 +5,13 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  # adapter: sqlite3
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
+  adapter: sqlite3
   database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -18,10 +19,14 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  # デフォルトのadapter: sqlite3をコメントアウトしたため追記
+  adapter: sqlite3
   database: db/test.sqlite3
 
 production:
-  <<: *default
+  # <<: *default
+  # herokuを使うのでadapter: postgresql
+  adapter: postgresql
   database: tweet_production
   username: tweet
   password: <%= ENV['tweet_DATABASE_PASSWORD'] %>
