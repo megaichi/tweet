@@ -1,0 +1,19 @@
+current directory: /Users/megataichi/exp/tweet/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+/Users/megataichi/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200519-12154-1rywqn3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/megataichi/exp/tweet/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/megataichi/exp/tweet/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/megataichi/exp/tweet/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20200519-12154-1m5zrh7/byebug
